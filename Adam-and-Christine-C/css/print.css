@@ -1,0 +1,59 @@
+﻿body {
+    background: White;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    /*color: #6F5E4C;*/
+    color:Black;
+}
+
+a {
+    color:green;
+}
+
+a:active {
+    color:green;
+}
+
+a:hover {
+    color:green;
+}
+
+a:visited {
+    color:green;
+}
+
+.invite {
+    border:1px solid Black;
+    margin:5px 0 5px 0;
+    display:inline-table;
+    width:99%;
+    height:212px;
+}
+
+.invite .left {
+    float:left;
+    width:70%;
+}
+
+.invite .right {
+    float:right;
+    width:30%;
+    text-align:center;
+}
+
+.qrImage {
+}
+
+.name {
+    padding-top:5px;
+    font-size:24px;
+    display: inline-block;
+    margin:0 0 10px 10px;
+    width:380px;
+}
+
+.acImage {
+    position:absolute;
+}

@@ -1,0 +1,303 @@
+﻿body {
+    background: url(../img/bg.jpg) repeat-x top #fff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #6F5E4C;
+}
+
+a {
+    color:green;
+}
+
+a:active {
+    color:green;
+}
+
+a:hover {
+    color:green;
+}
+
+a:visited {
+    color:green;
+}
+
+.container {
+    max-width:750px;
+    padding:0;
+}
+
+.content {
+    height: auto;
+    padding-left: 101px;
+    padding-top: 136px;
+    background: url(../img/top_bg.jpg) no-repeat;
+    margin-left: -50px;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    padding: 5px 0 5px 0;
+    background:white;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.main {
+    width: 100%;
+    background:white;
+    padding: 5px 0 5px 0;
+    min-height:200px;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    padding: 5px 0 5px 0;
+    background:white;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.languageSelect {
+    width:100%;
+    text-align:center;
+    margin: 0 0 10px 0;
+}
+
+
+/*--------------------grayscale image--------------------*/
+.grayscale {
+    width: 48px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+    .grayscale:hover {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+        -webkit-filter: grayscale(0%);
+        filter: none;
+    }
+
+.nofilter {
+    width: 98px;
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.nofiltersmall {
+    width: 58px;
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.rsvpRow {
+    margin: 0 20px 0 20px;
+}
+
+.rsvpRow .left {
+    float:left;
+}
+.rsvpRow .right {
+    float:right;
+}
+
+.rsvpRow .lbl {
+    font-size: 14px;
+    color: green;
+}
+
+.rsvpRow a {
+    text-decoration:underline;
+}
+
+
+.rsvpRow .heading {
+    margin: 0 0 10px 0;
+    font-size:16pt;
+    display:inline-block;
+    color:#8c847a;
+}
+
+.formRow {
+    border-bottom: 1px #CCCCCC dashed;
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    display:inline-table;
+    width: 100%;
+}
+
+.formRow .lbl {
+    margin: 0 5px 5px 0;
+    font-size: 14px;
+    color: green;
+}
+
+.formRowTop {
+    border-bottom: 1px #CCCCCC dashed;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+    display:inline-table;
+    width: 100%;
+}
+
+.formRow .left {
+    float:left;
+    width:75%;
+}
+
+.formRow .right {
+    float:right;
+    width:25%;
+}
+
+.submitRow {
+    display:inline-table;
+    width: 100%;
+}
+
+.submitRow .left {
+    float:left;
+    width:75%;
+}
+
+.submitRow .right {
+    float:right;
+    width:25%;
+}
+
+.formContent {
+    margin:0 20px 0 20px;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #97897C;
+    border-color: #6C5948;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#756452 0,#8E8073 100%);
+    background-image: -webkit-linear-gradient(top,#756452 0,#8E8073 100%);
+    background-image: -o-linear-gradient(top,#756452 0,#8E8073 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#756452),to(#8E8073));
+    background-image: linear-gradient(to bottom,#756452 0,#8E8073 100%);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: green;
+    border-color: #5CB811;
+    background-image:none;
+}
+
+.form-control {
+    vertical-align: middle;
+    background-color: White;
+    border: 1px solid #ccc;
+    padding: 6px 4px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px #333; 
+    border: solid;
+    border-width: 1px;
+    border-color:#ABA197;
+}
+
+.form-control option {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+.form-control-error {
+    border-color: red !important;
+    background-image: -webkit-linear-gradient(top,#f2dede 0,#e7c3c3 100%) !important;
+    background-image: -o-linear-gradient(top,#f2dede 0,#e7c3c3 100%) !important;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f2dede),to(#e7c3c3)) !important;
+    background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0) !important;
+    background-repeat: repeat-x;
+    border-color: #dca7a7 !important;
+}
+
+.alert {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.loading {
+    margin-top:8px;
+    text-align:left;
+}
+.loading .img {
+    float:left;
+}
+
+.loading .lbl {
+    margin-left:5px;
+    float:left;
+}
+
+.confirmSection {
+    margin:10px 0 0 0;
+    border-bottom: 1px #CCCCCC dashed;
+}
+
+
+.confirmRow {
+    margin: 0 0 10px 0;
+    display: inline-block;
+    width:100%;
+}
+
+.confirmRow .left {
+    margin-left:20px;
+    float:left;
+}
+.confirmRow .right {
+    margin-right:20px;
+    float:right;
+}
+
+.confirmRow .heading {
+    font-size:16pt;
+    display:inline-block;
+    color:#8c847a;
+}
+
+.confirmRow .lbl {
+    font-size: 14px;
+    color: green;
+}
+
+.confirmRow a {
+    text-decoration:underline;
+}
+
+.confirmRow a:hover {
+    text-decoration:none;
+}
+
+.fullRow {
+    margin:0 20px 0 20px;
+}
+
+.mistake {
+    color:#8c847a;
+}
+

@@ -1,0 +1,137 @@
+﻿.nav-tabs.nav-justified > li > a {
+    border: none;
+}
+
+.container-fluid {
+    border-bottom: 1px solid #ddd;
+}
+
+.lbl {
+    color:green;
+    font-size:12pt;
+}
+
+.lbl a {
+    color:green;
+}
+
+.adminRow {
+    margin:0 15px 10px 15px;
+}
+
+.adminRowUnderline {
+    margin:10px 15px 0 15px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.noTopMargin {
+    margin-top:0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #97897C;
+    border-color: #6C5948;
+    background-image: linear-gradient(to bottom,#756452 0,#8E8073 100%);
+    background-image: -webkit-linear-gradient(top,#756452 0,#8E8073 100%);
+    background-image: -o-linear-gradient(top,#756452 0,#8E8073 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#756452),to(#8E8073));
+    background-image: linear-gradient(to bottom,#756452 0,#8E8073 100%);
+}
+
+.form-inline {
+    text-align:right;
+}
+
+.num-pages {
+    display: inline-table;
+    margin-top: 10px;
+    width:100%;
+}
+
+.num-pages .left {
+    float: left;
+    width:70%;
+}
+
+.num-pages .leftlbl {
+    padding: 9px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.num-pages .right {
+    float: right;
+    width:30%;
+}
+
+.table-hover:hover {
+    cursor:pointer;
+}
+
+.table {
+    margin:10px 0 0 0;
+}
+
+.form-border {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:10px
+}
+
+.tablehovernoLast > tbody > tr:last-child:hover > td,
+.tablehovernoLast > tbody > tr:last-child:hover > th {
+  background-color: white !important;
+  cursor:auto;
+}
+
+.tableFooter > td > table > tbody > tr > td,
+.tableFooter > td > table > tbody > tr > th {
+    margin:0 4px 0 4px;
+    display:inline-table;
+}
+
+.qrCode {
+    margin:0 0 0 10px;
+}
+
+.grdLink {
+    padding-left:3px !important;
+    padding-right:1px !important;
+    cursor:auto !important;
+}
+
+.cmd {
+    border-top:solid 1px #DDDDDD;
+    padding-top:5px;
+    display:inline-block;
+    width:100%;
+}
+.cmd .left {
+    margin:0 0 0 15px;
+    width:70%;
+    float:left;
+}
+
+.cmd .right {
+    margin:2px 15px 0 0;
+    width:25px;
+    float:right;
+}
+.selectAll {
+    width:19px;
+    vertical-align:bottom;
+}
+
+.chkBox > input {
+    width: 19px;
+    vertical-align: bottom;
+}

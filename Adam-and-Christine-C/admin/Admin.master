@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Adam_and_Christine_C.admin.Admin" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContentPlaceHolder" runat="server">
+    <link href="/css/admin.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
+    <div class="container-fluid">
+        <ul class="nav nav-tabs nav-justified">
+          <li id="liInvitations" runat="server" class="active lbl"><a href="/admin/invitations.aspx">Invitations</a></li>
+          <li id="liTranslations" runat="server" class="lbl"><a href="/admin/translations.aspx">Translations</a></li>
+          <li class="lbl"><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
+            
+        </ul>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
+    <asp:ContentPlaceHolder ID="AdminMainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="FooterContentPlaceHolder" runat="server">
+</asp:Content>

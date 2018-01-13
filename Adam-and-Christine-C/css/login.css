@@ -1,0 +1,39 @@
+﻿.loginRow {
+    margin: 0 20px 0 20px;
+}
+
+.loginForm {
+    width:100%;
+    margin:auto;
+}
+
+.loginRow .lbl {
+    margin: 5px 5px 5px 0;
+    font-size: 14px;
+    color: green;
+}
+
+.loginRow .chkBox {
+    margin: 5px 0 5px 0;
+    color: green;
+    display: inline-block;
+}
+
+.loginRow .chkBox label {
+    display:inline;
+    margin: 5px 0 0 0;
+    width:100%;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin: 4px 4px 0;
+}
+
+.errorSummary {
+    color:red;
+    margin:10px 20px 10px 20px;
+}
+
+.btn-custom {
+
+}
